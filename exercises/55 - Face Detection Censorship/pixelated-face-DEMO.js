@@ -1,4 +1,4 @@
-const faceDetector = new window.FaceDetector();
+const faceDetector = new window.FaceDetector({ fastMode: true });
 const video = document.querySelector('video.webcam');
 const canvas = document.querySelector('canvas.video');
 const ctx = canvas.getContext('2d');
